@@ -1,6 +1,7 @@
 ---
 slug: es-es/real-world-development/vscode
-title: "VS Code"
+title: "Visual Studio Code"
+description: "Usa GitHub Copilot en Visual Studio Code para desarrollar y probar funciones con el modo de agente, MCP y agentes personalizados."
 authors:
   - geektrainer
 lastUpdated: 2026-06-30

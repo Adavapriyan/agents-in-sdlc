@@ -66,15 +66,15 @@ Tailspin Toys は、pull request (PR) を作成する前に、要件、コード
 
 再利用可能な専門家の役割をワークフローに追加し、その作業をレビューしました。このレッスンでは、次のことを行いました。
 
-- カスタムエージェントが指示、スキル、MCP ツールと連携する仕組みを確認した。
-- 要件から開始する再利用可能な QA プロファイルを作成して確認した。
-- QA エージェントを選択し、フィルター機能の Issue に照らして結果をレビューした。
+- カスタムエージェントが指示、スキル、MCP ツールと連携する仕組みを確認しました。
+- 要件から開始する再利用可能な QA プロファイルを作成して確認しました。
+- QA エージェントを選択し、フィルター機能の Issue に照らして結果をレビューしました。
 
 レビューに必要な実装、スキルの更新、QA プロファイル、テスト、検証レポートがそろいました。[レッスン 8 - 機能の PR を作成してマージする][next-lesson]で、これらをまとめて Agent Merge を使います。
 
 ## リソース
 
-- [カスタムエージェントの選択を含む GitHub Copilot App のカスタマイズ][customize-app]
+- [カスタムエージェントの選択を含む GitHub Copilot app のカスタマイズ][customize-app]
 
 [next-lesson]: ../8-create-pull-request/
 [customize-app]: https://docs.github.com/copilot/how-tos/github-copilot-app/customize-github-copilot-app

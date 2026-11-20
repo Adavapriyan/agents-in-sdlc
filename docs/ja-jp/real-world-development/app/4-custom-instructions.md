@@ -64,8 +64,9 @@ lastUpdated: 2026-07-09
 > 指示ファイルは Copilot が生成するコードに大きな影響を与えるため、Copilot を明確にガイドする内容になっていることを慎重に確認してください。Copilot で最初のバージョンを作成した後、自分でレビューして更新内容が要件を満たすことを確認できます。また、出発点として役立つ[指示ファイルのコレクションを Awesome Copilot で][awesome-copilot]確認できます。
 
 1. 同じファイルキャンバスで `.github/copilot-instructions.md` に移動します。
-2. ファイルの中ほどにある **Code formatting requirements** 見出しを見つけます。
-3. その見出しの下にある最後の箇条書きとして、次の内容を追加します。
+2. ツールバーのコード ボタン (`<>`) を選択して、編集可能なソース ビューに切り替えます。
+3. ファイルの中ほどにある **Code formatting requirements** 見出しを見つけます。
+4. その見出しの下にある最後の箇条書きとして、次の内容を追加します。
 
    ```plaintext
    All new TypeScript should contain TSDocs comments for documentation purposes.
@@ -96,9 +97,9 @@ lastUpdated: 2026-07-09
 
 アプリが指示ファイルからコンテキストを取得する仕組みを確認し、新しい標準を機能に適用しました。具体的には、次の作業を行いました。
 
-- リポジトリの `copilot-instructions.md` とパス固有の `*.instructions.md` ファイルを確認した。
-- コーディング標準に従うよう指示ファイルを更新した。
-- 指示ファイルが生成されたコードに与える影響を確認した。
+- リポジトリの `copilot-instructions.md` とパス固有の `*.instructions.md` ファイルを確認しました。
+- コーディング標準に従うよう指示ファイルを更新しました。
+- 指示ファイルが生成されたコードに与える影響を確認しました。
 
 次は、lint とテストを一貫して実行するために、[再利用可能な quality-checks スキルをカスタマイズして実行します][next-lesson]。
 
